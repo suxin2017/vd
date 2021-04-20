@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "npmClient": "yarn",
+  "scripts": {
+    "dev": "lerna run start --parallel "
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.22"
+  }
+}
